@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Enalapril -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Enalapril">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องยา"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Furosemide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Furosemide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องยา"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Ketamine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Ketamine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องยา"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Sodamint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#Sodamint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องยา"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ดูแลหลอดเลือด -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ดูแลหลอดเลือด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเกี่ยวกับโรคไต -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเกี่ยวกับโรคไต">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องการออกกำลังกาย -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องการออกกำลังกาย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องยา -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องยา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องอาหาร -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องอาหาร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#นอนยกขาขึ้นด้านข้าง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#นอนยกขาขึ้นด้านข้าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#นอนยกตัว -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#นอนยกตัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#น้อยกว่า_40_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#น้อยกว่า_40_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#บริหารกล้ามเนื้อน่อง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#บริหารกล้ามเนื้อน่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#บริหารกล้ามเนื้อแขน -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#บริหารกล้ามเนื้อแขน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ปริมาณสารอาหารที่ควรได้รับต่อวัน -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ปริมาณสารอาหารที่ควรได้รับต่อวัน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องอาหาร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#มากกว่า_99_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#มากกว่า_99_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#มีอาหารอะไรบ้าง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#มีอาหารอะไรบ้าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องอาหาร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ยืดกล้ามเนื้อคอ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ยืดกล้ามเนื้อคอ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ยืดกล้ามเนื้อสีข้าง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ยืดกล้ามเนื้อสีข้าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ยืดกล้ามเนื้ออกและหลัง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ยืดกล้ามเนื้ออกและหลัง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#วิธีป้องกันโรคไต -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#วิธีป้องกันโรคไต">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเกี่ยวกับโรคไต"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#สาเหตุของโรคไต -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#สาเหตุของโรคไต">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเกี่ยวกับโรคไต"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#หมุนไหล่ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#หมุนไหล่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#อาหารที่ควรรับประทาน -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#อาหารที่ควรรับประทาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องอาหาร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#อาหารที่ควรหลีกเลี่ยง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#อาหารที่ควรหลีกเลี่ยง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องอาหาร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอทำอะไรได้บ้าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอเป็นใคร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอเป็นใคร -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#เธอเป็นใคร"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แกว่งขาด้านหลัง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แกว่งขาด้านหลัง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำการออกกำลังกาย -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำการออกกำลังกาย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องการออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#แนะนำท่าออกกำลังกาย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเรื่องการออกกำลังกาย"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#โรคไต_คืออะไร -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#โรคไต_คืออะไร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ถามเกี่ยวกับโรคไต"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#40-49_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#40-49_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#50-59_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#50-59_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#60-69_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#60-69_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#70-79_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#70-79_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#80-89_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#80-89_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#90-99_กิโลกรัม -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#90-99_กิโลกรัม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#ควรดื่มน้ำอย่างไร"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#[ชื่ออาหาร] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#[ชื่ออาหาร]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2563/9/untitled-ontology-4#มีอาหารอะไรบ้าง"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

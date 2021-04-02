@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_food"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kidneyphrs.FoodActivity"
+    android:orientation="horizontal"
+    tools:openDrawer="start"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <com.example.kidneyphrs.TextviewCustom
+                android:id="@+id/txt_medName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="อาการที่พบ"
+                android:textSize="35sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:padding="10sp">
+            <com.example.kidneyphrs.TextviewCustom
+                android:id="@+id/txt_feeling"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="test"
+                android:textSize="30sp"
+                android:textColor="@color/colorPlainText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center">
+            <com.example.kidneyphrs.ButtonCustom
+                android:id="@+id/btn_mainmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_2"
+                android:text="กลับสู่หน้าหลัก "
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

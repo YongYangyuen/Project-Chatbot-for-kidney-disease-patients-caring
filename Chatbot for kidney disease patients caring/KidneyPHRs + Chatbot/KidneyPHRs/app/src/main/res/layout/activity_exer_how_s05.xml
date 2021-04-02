@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_food"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kidneyphrs.FoodActivity"
+    android:orientation="horizontal"
+    tools:openDrawer="start"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="14">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorH1">
+            <com.example.kidneyphrs.TextviewCustom
+                android:id="@+id/txt_exerName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="ชื่อ"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11"
+            android:background="@color/colorWhite"
+            android:weightSum="7"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center">
+                <com.example.kidneyphrs.PlayGifView
+                    android:id="@+id/viewGif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10sp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+                <com.example.kidneyphrs.TextviewCustom
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="1. "
+                    android:textSize="28sp"
+                    android:textColor="@color/colorPlainText"/>
+                <com.example.kidneyphrs.TextviewCustom
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="นอนหงาย งอเข่าขึ้นเล็กน้อย มือกอดอก"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorPlainText"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:paddingLeft="10sp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+                <com.example.kidneyphrs.TextviewCustom
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="2. "
+                    android:textSize="28sp"
+                    android:textColor="@color/colorPlainText"/>
+                <com.example.kidneyphrs.TextviewCustom
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="ค่อยๆยกศีรษะขี้นโดยให้ไหล่ยกขึ้นจากพื้นเล็กน้อยแล้วค่อยๆกลับสู่ท่าเริ่มต้น นับเป็น 1 ครั้ง"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorPlainText"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center">
+            <com.example.kidneyphrs.ButtonCustom
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10sp"
+                android:text="ตกลง"
+                android:textSize="30sp"
+                android:background="@drawable/btn_2"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

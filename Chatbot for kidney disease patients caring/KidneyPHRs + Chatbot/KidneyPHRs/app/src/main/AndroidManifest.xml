@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidneyphrs">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Permission for Notification -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChatbotActivity"></activity>
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FoodActivity"
+            android:label="อาหาร"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FoodTypeActivity"
+            android:label="อาหาร"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".FoodConcludeActivity"
+            android:label="อาหาร" />
+        <activity
+            android:name=".FoodClass1Activity"
+            android:label="อาหารจานเดียว"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".FoodClass2Activity"
+            android:label="กับข้าว"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".FoodClass3Activity"
+            android:label="อาหารว่าง"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".FoodClass4Activity"
+            android:label="ผลไม้"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".FoodClass5Activity"
+            android:label="เครื่องดื่ม"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".ExerciseActivity"
+            android:label="ออกกำลังกาย"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HemoHowActivity"
+            android:label="ออกกำลังกายเพื่อดูแลหลอดเลือด"
+            android:parentActivityName=".ExerciseActivity" />
+        <activity
+            android:name=".HemoExerActivity"
+            android:label="ออกกำลังกายเพื่อดูแลหลอดเลือด"
+            android:parentActivityName=".HemoHowActivity" />
+        <activity
+            android:name=".EditHemoCountActivity"
+            android:label="ออกกำลังกายเพื่อดูแลหลอดเลือด"
+            android:parentActivityName=".HemoExerActivity" />
+        <activity
+            android:name=".HemoResultActivity"
+            android:label="ออกกำลังกายเพื่อดูแลหลอดเลือด"
+            android:parentActivityName=".EditHemoCountActivity" />
+        <activity
+            android:name=".OtherExerciseActivity"
+            android:label="ออกกำลังกายอื่นๆ"
+            android:parentActivityName=".ExerciseActivity" />
+        <activity
+            android:name=".FlexibilityExerActivity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น"
+            android:parentActivityName=".OtherExerciseActivity" />
+        <activity
+            android:name=".StrengthExerActivity"
+            android:label="ออกกำลังกายเพื่อเพิ่มความแข็งแรง"
+            android:parentActivityName=".OtherExerciseActivity" />
+        <activity
+            android:name=".ExerciseByTypeActivity"
+            android:label="ออกกำลังกายอื่นๆ"
+            android:parentActivityName=".OtherExerciseActivity" />
+        <activity
+            android:name=".ExerGetAmountActivity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น" />
+        <activity
+            android:name=".ExerResultActivity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น" />
+        <activity
+            android:name=".ExerHowF01Activity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น" />
+        <activity
+            android:name=".ExerHowF02Activity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น" />
+        <activity
+            android:name=".ExerHowF03Activity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น" />
+        <activity
+            android:name=".ExerHowF04Activity"
+            android:label="ออกกำลังกายแบบยืดหยุ่น" />
+        <activity
+            android:name=".ExerHowS01Activity"
+            android:label="ออกกำลังกายเพื่อเพิ่มความแข็งแรง" />
+        <activity
+            android:name=".ExerHowS02Activity"
+            android:label="ออกกำลังกายเพื่อเพิ่มความแข็งแรง" />
+        <activity
+            android:name=".ExerHowS03Activity"
+            android:label="ออกกำลังกายเพื่อเพิ่มความแข็งแรง" />
+        <activity
+            android:name=".ExerHowS04Activity"
+            android:label="ออกกำลังกายเพื่อเพิ่มความแข็งแรง" />
+        <activity
+            android:name=".ExerHowS05Activity"
+            android:label="ออกกำลังกายเพื่อเพิ่มความแข็งแรง" />
+        <activity
+            android:name=".AnalyzeMainActivity"
+            android:label="การวิเคราะห์"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FoodAnalyzeActivity"
+            android:label="การวิเคราะห์อาหาร"
+            android:parentActivityName=".AnalyzeMainActivity" />
+        <activity
+            android:name=".FoodAnalyzeDetailActivity"
+            android:label="การวิเคราะห์อาหาร"
+            android:parentActivityName=".FoodAnalyzeActivity" />
+        <activity
+            android:name=".FoodAnalyzeMoredetailActivity"
+            android:label="การวิเคราะห์อาหาร"
+            android:parentActivityName=".FoodAnalyzeActivity" />
+        <activity
+            android:name=".FoodAnalyzeDetailEndActivity"
+            android:label="การวิเคราะห์อาหาร"
+            android:parentActivityName=".FoodAnalyzeActivity" />
+        <activity
+            android:name=".ShowGraphFoodActivity"
+            android:label="การวิเคราะห์อาหาร"
+            android:parentActivityName=".FoodAnalyzeActivity" />
+        <activity
+            android:name=".ExerAnalyzeActivity"
+            android:label="การวิเคราะห์การออกกำลังกาย"
+            android:parentActivityName=".AnalyzeMainActivity" />
+        <activity
+            android:name=".HemoAnalyzeActivity"
+            android:label="การวิเคราะห์การออกกำลังกาย"
+            android:parentActivityName=".ExerAnalyzeActivity" />
+        <activity
+            android:name=".OtherExerAnalyzeActivity"
+            android:label="การวิเคราะห์การออกกำลังกาย"
+            android:parentActivityName=".ExerAnalyzeActivity" />
+        <activity
+            android:name=".OtherExerAnalyzeDetailActivity"
+            android:label="การวิเคราะห์การออกกำลังกาย"
+            android:parentActivityName=".OtherExerAnalyzeActivity" />
+        <activity
+            android:name=".FirsttimeInformationActivity"
+            android:label="กรอกข้อมูลส่วนตัว" />
+        <activity
+            android:name=".PersonalInfoActivity"
+            android:label="ข้อมูลส่วนตัว"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EditWeightActivity"
+            android:label="แก้ไขน้ำหนักตัว"
+            android:parentActivityName=".PersonalInfoActivity" />
+        <activity
+            android:name=".EditHeightActivity"
+            android:label="แก้ไขส่วนสูง"
+            android:parentActivityName=".PersonalInfoActivity" />
+        <activity
+            android:name=".EditPhoneActivity"
+            android:label="แก้ไขหมายเลขโทรศัพท์ฉุกเฉิน"
+            android:parentActivityName=".PersonalInfoActivity" />
+        <activity
+            android:name=".KnowledgeActivity"
+            android:label="คำแนะนำสุขภาพ"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MedicineActivity"
+            android:label="ยา"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MedicineDetailActivity"
+            android:label="ข้อมูลยา"
+            android:parentActivityName=".MedicineActivity" />
+        <activity
+            android:name=".AddMedicineActivity"
+            android:label="เพิ่มยา"
+            android:parentActivityName=".MedicineActivity" />
+        <activity
+            android:name=".FeelingMainActivity"
+            android:label="ความรู้สึก"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddFeelingActivity"
+            android:label="เพิ่มความรู้สึก"
+            android:parentActivityName=".FeelingMainActivity" />
+        <activity
+            android:name=".ShowFeelingActivity"
+            android:label="แสดงความรู้สึก"
+            android:parentActivityName=".FeelingMainActivity" />
+        <activity
+            android:name=".ShowFeelingDetailActivity"
+            android:label="แสดงความรู้สึก"
+            android:parentActivityName=".ShowFeelingActivity" />
+        <activity
+            android:name=".EmergencyActivity"
+            android:label="ฉุกเฉิน" />
+        <activity android:name=".Pop" android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity android:name=".Pop2" android:theme="@style/AppTheme.CustomTheme"></activity>
+    </application>
+
+</manifest>

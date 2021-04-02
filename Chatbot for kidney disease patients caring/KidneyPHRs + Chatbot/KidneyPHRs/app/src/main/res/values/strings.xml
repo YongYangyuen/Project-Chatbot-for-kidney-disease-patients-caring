@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KidneyPHRs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_height">EditHeightActivity</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="bot">คุยกับบอท</string>
+    <string name="chat">คุยกับแชทบอท</string>
+    <string name="btn_messenger_gotit">ฉันเข้าใจแล้ว</string>
+</resources>

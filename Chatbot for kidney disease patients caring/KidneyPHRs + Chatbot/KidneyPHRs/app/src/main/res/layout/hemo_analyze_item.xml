@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="#FFFFFF"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:paddingLeft="5sp">
+            <TextView
+                android:id="@+id/txt_id"
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:visibility="invisible"/>
+            <com.example.kidneyphrs.TextviewCustom
+                android:id="@+id/txt_dateAnalyze"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5">
+            <com.example.kidneyphrs.TextviewCustom
+                android:id="@+id/txt_amountAnalyze"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingRight="5sp">
+            <com.example.kidneyphrs.TextviewCustom
+                android:id="@+id/txt_times"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="ครั้ง "
+                android:textSize="30sp"
+                android:textColor="@color/colorPlainText"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
